@@ -56,6 +56,12 @@ USE_CAMERA_STUB := true
 # Graphics
 USE_OPENGL_RENDERER := true
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg
+#BOARD_USE_GRALLOC_FLAG_FOR_HDMI := true
+BOARD_USE_S3D_SUPPORT := true
+#BOARD_USES_HWC_SERVICES := true
+#BOARD_USES_SKIA_FIMGAPI := true
+BOARD_VSYNC_DEV_NAME := /sys/devices/platform/exynos-sysmmu.11/exynos5-fb.1/vsync
+TARGET_EXYNOS_VARIANT := insignal
 
 # NFC
 BOARD_NFC_HAL_SUFFIX := universal5410
